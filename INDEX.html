@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atemporal Cinema</title>
+    <link rel="icon" type="image/png" href="IMG/favicon.png">
+    <link rel="stylesheet" href="CSS/CSS.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="INDEX.html">
+                <img src="IMG/logo.png" alt="Atemporal Cinema Logo">
+              </a>
+        </div>
+        <div class="links">
+            <a href="INDEX.html">Inicio</a>
+            <a href="#">Acerca</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+        </div>
+        <div class="right-image">
+            <img src="IMG/perfil.png" alt="Perfil de usuario">
+        </div>
+        <div class="dropdown" onclick="toggleDropdown()">
+            Menú <span class="dropdown-arrow">&#9662;</span>
+            <div class="dropdown-content">
+                <a href="#">REGISTRATE</a>
+                <a href="#">INICIAR SESION</a>
+            </div>
+        </div>
+    </div>
+
+
+
+<br><!--cuerpo-->
+   
+
+    <script>
+        function toggleDropdown() {
+            var dropdown = document.querySelector('.dropdown');
+            dropdown.classList.toggle('active');
+        }
+    </script>
+</body>
+
+    <footer class="footer">
+        <p>&copy; Atemporal Cinema 2024 - Todos los derechos reservados</p>
+    </footer>
+
+</html>
