@@ -6,10 +6,10 @@ body {
 }
 
 .navbar {
-  position: fixed; /* Establece la posición fija para que la barra de navegación se mantenga visible */
-  top: 0; /* Fija la barra de navegación en la parte superior de la ventana */
-  left: 0; /* Fija la barra de navegación en el lado izquierdo de la ventana */
-  right: 0; /* Fija la barra de navegación en el lado derecho de la ventana */
+  position: fixed;
+  top: 0; 
+  left: 0;
+  right: 0;
   background: radial-gradient(ellipse at center, #6699CC 0%, #0020d4 70%, #003d88 100%);
   padding: 10px 20px;
   display: flex;
@@ -17,16 +17,14 @@ body {
   align-items: center;
   height: 60px;
   border-bottom: 4px solid black;
-  z-index: 1000; /* Asegura que la barra de navegación esté sobre otros elementos */
-  transition: top 0.3s; /* Agrega una transición suave al desplazarse */
+  z-index: 1000;
+  transition: top 0.3s; 
 }
 
-/* Agrega una clase adicional cuando la barra de navegación esté pegajosa */
 .navbar.sticky {
-  top: -60px; /* Mueve la barra de navegación fuera de la pantalla */
+  top: -60px; 
 }
 
-/* Resto del CSS como lo tenías */
 .logo {
   width: 100px;
   cursor: pointer;
